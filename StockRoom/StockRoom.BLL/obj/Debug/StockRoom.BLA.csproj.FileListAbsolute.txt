@@ -1,0 +1,17 @@
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\StockRoom.BLA.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\StockRoom.BLA.pdb
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\Newtonsoft.Json.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\Newtonsoft.Json.xml
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.csprojResolveAssemblyReference.cache
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.pdb
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\bin\Debug\StockRoom.BLA.dll
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\bin\Debug\StockRoom.BLA.pdb
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.csprojResolveAssemblyReference.cache
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.dll
+C:\Users\zhajin\Downloads\StockRoom\StockRoom.BLA\obj\Debug\StockRoom.BLA.pdb
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\wojilu.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\wojilu.pdb
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLA\bin\Debug\wojilu.xml

@@ -1,0 +1,12 @@
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\framework\config\log.config
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\framework\config\orm.config
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\UnitTestStockRoom.dll
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\UnitTestStockRoom.pdb
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\StockRoom.BLL.dll
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\wojilu.dll
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\Newtonsoft.Json.dll
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\StockRoom.BLL.pdb
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\bin\Release\Newtonsoft.Json.xml
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\obj\Release\UnitTestStockRoom.csprojResolveAssemblyReference.cache
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\obj\Release\UnitTestStockRoom.dll
+C:\jinzhao\StockRoom\StockRoom\UnitTestStockRoom\obj\Release\UnitTestStockRoom.pdb

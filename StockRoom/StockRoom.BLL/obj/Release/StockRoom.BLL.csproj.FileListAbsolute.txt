@@ -1,0 +1,8 @@
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\bin\Release\StockRoom.BLL.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\bin\Release\StockRoom.BLL.pdb
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\bin\Release\Newtonsoft.Json.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\bin\Release\wojilu.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\bin\Release\Newtonsoft.Json.xml
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\obj\Release\StockRoom.BLL.csprojResolveAssemblyReference.cache
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\obj\Release\StockRoom.BLL.dll
+C:\jinzhao\StockRoom\StockRoom\StockRoom.BLL\obj\Release\StockRoom.BLL.pdb
