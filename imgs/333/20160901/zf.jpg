@@ -1,0 +1,20 @@
+﻿<script language="javascript" type="text/javascript">
+    var szURL = document.location.href;
+
+    nIndex = szURL.indexOf("/", 8) + 1;
+    szTemp = szURL.substring(nIndex);
+    //alert(szTemp);
+    //  alert(szTemp.substring(szTemp.length-2));
+    if (szTemp.indexOf("?") != -1 || (szTemp.indexOf("/") >= 0 && szTemp.substring(szTemp.length - 1) != "/")) {
+        document.location.replace("/error.aspx");
+    }
+    else if (szTemp.indexOf("/") == -1) {
+        var szHttp = szURL.substring(0, nIndex);
+        if (szTemp.indexOf(".") >= 0)
+            szTemp = szTemp.replace(".", "");
+        document.location.replace(szHttp + szTemp + "/default.html");
+    }
+    else {
+        document.location.replace(szURL.substring(0, nIndex + 2 + szTemp.indexOf("/")) + "default.html");
+    }   
+</script>
