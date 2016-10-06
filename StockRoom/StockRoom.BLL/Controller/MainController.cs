@@ -23,6 +23,14 @@ namespace StockRoom.BLL.Controller
             bindList("list", "teacher", dataInDB);
         }
 
+        public virtual void Show(Int64 id)
+        {
+            List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId")
+                    .set("roomId", id).list();
+
+            bindList("list", "teacher", dataInDB);
+        }
+
         public virtual void JsonResult()
         {
 

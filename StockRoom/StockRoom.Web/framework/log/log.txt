@@ -447,3 +447,574 @@
 2016/10/6 23:17:03 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\60b65584_e41fd201\StockRoom.BLL.DLL 
 2016/10/6 23:17:03 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
 2016/10/6 23:17:03 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:21:28 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\60b65584_e41fd201\StockRoom.BLL.DLL 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:21:28 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:21:28 info wojilu.lang - lang cookie:  
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:21:28 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:21:28 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:21:28 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:21:28 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:21:28 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\60b65584_e41fd201\StockRoom.BLL.DLL 
+2016/10/6 23:21:28 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:21:28 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:21:28 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:21:28 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:21:28 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:21:29 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:21:29 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:21:29 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:21:29 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:21:29 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:21:29 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:21:29 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:21:29 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:21:29 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\60b65584_e41fd201\StockRoom.BLL.DLL 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:21:30 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:21:30 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\60b65584_e41fd201\StockRoom.BLL.DLL 
+2016/10/6 23:21:30 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:21:31 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:28:26 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:28:26 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:28:26 info wojilu.lang - lang cookie:  
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:28:26 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:28:26 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:28:26 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:28:26 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:28:26 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:28:26 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:28:26 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:28:26 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:28:26 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:28:26 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:28:27 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:28:27 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:28:27 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:28:27 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:28:27 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:28:27 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:28:27 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:28:27 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:28:27 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:28:28 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:28:28 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:28:28 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:28:28 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:28:44 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=Main/333/Show 
+2016/10/6 23:28:44 info wojilu.lang - lang cookie:  
+2016/10/6 23:28:44 info wojilu.Web.Context.MvcContext - ------------------- output end(/Main/333/Show.aspx)  --------------------- 
+2016/10/6 23:30:15 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:30:15 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:30:15 info wojilu.lang - lang cookie:  
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:30:15 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:30:15 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:30:15 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:30:15 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:30:15 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:30:15 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:30:15 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:30:15 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:30:15 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:30:15 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:30:15 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:30:15 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:30:15 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:30:15 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:30:15 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:30:16 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:30:17 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:30:17 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\b07f8746_e61fd201\StockRoom.BLL.DLL 
+2016/10/6 23:30:17 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:30:17 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:35:43 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\d845994a_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:35:43 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:35:43 info wojilu.lang - lang cookie:  
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:35:43 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:35:43 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:35:43 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:35:43 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:35:43 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\d845994a_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:35:43 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:35:43 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:35:43 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:35:43 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:35:43 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:35:43 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:35:43 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:35:43 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:35:43 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:35:43 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:35:43 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\d845994a_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:35:45 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:35:45 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\d845994a_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:35:45 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:35:45 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:36:12 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\787ebe5b_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:36:12 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:36:12 info wojilu.lang - lang cookie:  
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:36:12 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:36:12 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:36:12 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:36:12 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:36:12 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\787ebe5b_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:36:12 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:36:12 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:36:12 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:36:12 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:36:12 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:36:12 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:36:12 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:36:12 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:36:12 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:36:12 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:36:12 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\787ebe5b_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:36:14 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:36:14 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\787ebe5b_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:36:14 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:36:14 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:38:22 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=default 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:38:22 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:38:22 info wojilu.lang - lang cookie:  
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - begin MappingClass ... 
+2016/10/6 23:38:22 info wojilu.Data.DbConfig - checkConnectionString... 
+2016/10/6 23:38:22 info wojilu.Data.DbConfig - connectionString:Provider=Microsoft.Jet.OLEDB.4.0;Data Source=stockroom.mdb 
+2016/10/6 23:38:22 info wojilu.Data.DbConfig - database path original:stockroom.mdb 
+2016/10/6 23:38:22 info wojilu.Data.DbConfig - database path now:C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\stockroom.mdb 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - loadByReflection 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Controller.MainController 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOnlineJob 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.FKWRoomOfflineJob 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOfflineJob 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Jobs.XXMRoomOnlineJob 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.Teacher 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.TeacherHis 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - Loading Type : StockRoom.BLL.StockOnline+<>c__DisplayClass2 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - loaded assembly: StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - FinishPropertyInfo 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - cacheInterceptor 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - AccessorUtil.Init 
+2016/10/6 23:38:22 info wojilu.Reflection.AccessorUtil - cacheFactory... 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:38:22 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:38:22 info wojilu.Reflection.AccessorUtil - cacheAccessor... 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - begin check database... 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - CheckDatabase 
+2016/10/6 23:38:22 info wojilu.Data.AccessDatabaseChecker - begin check database 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - CheckTable 
+2016/10/6 23:38:22 info wojilu.Data.AccessDatabaseChecker - [access] begin check table 
+2016/10/6 23:38:22 info wojilu.Data.AccessDatabaseChecker - table found：Stock_History 
+2016/10/6 23:38:22 info wojilu.Data.AccessDatabaseChecker - table found：Teacher 
+2016/10/6 23:38:22 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.Teacher => Teacher 
+2016/10/6 23:38:22 info wojilu.Data.TableBuilderBase - table map : StockRoom.BLL.TeacherHis => Stock_History 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - GetTables 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - end check database... 
+2016/10/6 23:38:22 info wojilu.ORM.MappingClass - end MappingClass ... 
+2016/10/6 23:38:22 info wojilu.ORM.Operation.FindAllOperation - [Teacher_FindAll]select * from Teacher 
+2016/10/6 23:38:22 info wojilu.ORM.Operation.FindAllOperation - [TeacherHis_FindAll]select * from Stock_History 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:38:24 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:38:25 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:38:25 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:38:25 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:38:25 info wojilu.Web.Context.MvcContext - ------------------- output end(/default.aspx)  --------------------- 
+2016/10/6 23:38:24 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=Main/333 
+2016/10/6 23:38:24 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:38:24 info wojilu.lang - lang cookie:  
+2016/10/6 23:38:24 info wojilu.ORM.Query - [FindBy]select * from Teacher where (roomId = ?) order by Id desc 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:38:28 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:38:28 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:38:28 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:38:28 info wojilu.Web.Context.MvcContext - ------------------- output end(/Main/333.aspx)  --------------------- 
+2016/10/6 23:39:15 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=Main/333 
+2016/10/6 23:39:15 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:39:15 info wojilu.lang - lang cookie:  
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:39:16 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:39:16 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:39:16 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:39:16 info wojilu.Web.Context.MvcContext - ------------------- output end(/Main/333.aspx)  --------------------- 
+2016/10/6 23:39:27 info wojilu.Web.Mvc.Routes.RouteTool - RecognizePath begin, clearnUrl=Main/333 
+2016/10/6 23:39:27 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.MainController 
+2016/10/6 23:39:27 info wojilu.lang - lang cookie:  
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - wojilu, Version=1.9.6074.30980, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a94e2249\008ecbad_30f9d101\wojilu.DLL 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a__C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089__C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - StockRoom.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\a4540e90\a09b68a8_e71fd201\StockRoom.BLL.DLL 
+2016/10/6 23:39:27 info wojilu.Reflection.CodeDomHelper - Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed__C:\Users\zhaojin\AppData\Local\Temp\Temporary ASP.NET Files\root\563f4bca\97497121\assembly\dl3\ddb0d299\00b838ba_9ef6d101\Newtonsoft.Json.DLL 
+2016/10/6 23:39:28 info wojilu.ObjectContext - inject type=>StockRoom.BLL.Controller.LayoutController 
+2016/10/6 23:39:28 info StockRoom.BLL.Controller.LayoutController - 开始加载布局文件 
+2016/10/6 23:39:28 info wojilu.Web.Context.MvcContext - ------------------- output end(/Main/333.aspx)  --------------------- 
