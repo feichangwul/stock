@@ -1,8 +1,0 @@
-C:\jinzhao\StockRoom\StockRoom\StockRoom\bin\Debug\StockRoom.exe.config
-C:\jinzhao\StockRoom\StockRoom\StockRoom\bin\Debug\StockRoom.exe
-C:\jinzhao\StockRoom\StockRoom\StockRoom\bin\Debug\StockRoom.pdb
-C:\jinzhao\StockRoom\StockRoom\StockRoom\obj\Debug\StockRoom.Properties.Resources.resources
-C:\jinzhao\StockRoom\StockRoom\StockRoom\obj\Debug\StockRoom.csproj.GenerateResource.Cache
-C:\jinzhao\StockRoom\StockRoom\StockRoom\obj\Debug\StockRoom.exe
-C:\jinzhao\StockRoom\StockRoom\StockRoom\obj\Debug\StockRoom.pdb
-C:\jinzhao\StockRoom\StockRoom\StockRoom\obj\Debug\StockRoom.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\bin\StockRoom.Web.dll.config
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\bin\StockRoom.Web.dll
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\bin\StockRoom.Web.pdb
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\obj\Release\StockRoom.Web.csprojResolveAssemblyReference.cache
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\obj\Release\StockRoom.Web.dll
-C:\jinzhao\StockRoom\StockRoom\StockRoom.Web\obj\Release\StockRoom.Web.pdb

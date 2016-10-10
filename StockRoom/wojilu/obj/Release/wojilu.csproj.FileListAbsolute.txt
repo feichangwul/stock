@@ -1,3 +1,0 @@
-C:\jinzhao\StockRoom\StockRoom\wojilu\bin\Release\wojilu.dll
-C:\jinzhao\StockRoom\StockRoom\wojilu\obj\Release\wojilu.dll
-C:\jinzhao\StockRoom\StockRoom\wojilu\obj\Release\wojilu.csprojResolveAssemblyReference.cache
