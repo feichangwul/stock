@@ -19,7 +19,7 @@ namespace StockRoom.BLL.Jobs
         {
             string date = DateTime.Now.ToString("yyyyMMdd");
             int roomId = 333;
-            string dir = string.Format("{0}\\{1}\\{2}", @"C:\jinzhao\StockRoom\data", roomId, date);
+            string dir = string.Format("{0}\\data\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
             //如果已经包含有文件,说明已经运行过一次
             if (Directory.GetFiles(dir).Length > 0)
                 return;

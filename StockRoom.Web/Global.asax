@@ -9,7 +9,7 @@
     void Application_Start( object sender, EventArgs e ) {
         SystemInfo.Init();
         MvcFilterLoader.Init();
-        //WebJobStarter.Init();       
+        WebJobStarter.Init();       
     }
 
     void Application_Error( object sender, EventArgs e ) {

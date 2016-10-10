@@ -17,7 +17,7 @@ namespace StockRoom.BLL
         public void FetchOnlineData(int roomId)
         {
             string date = DateTime.Now.ToString("yyyyMMdd");
-            string imgDir = string.Format("{0}\\{1}\\{2}", @"C:\jinzhao\StockRoom\imgs", roomId, date);
+            string imgDir = string.Format("{0}\\imgs\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
 
             //
             Dictionary<int, Teacher> teacherDic = new Dictionary<int, Teacher>();
