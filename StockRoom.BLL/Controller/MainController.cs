@@ -50,7 +50,22 @@ namespace StockRoom.BLL.Controller
                     .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
                     .list();
 
-            bindList("list", "teacher", dataInDB);
+            IBlock block = getBlock("list");
+            foreach (var item in dataInDB)
+            {
+                //block.Set("teacher.RoomId", item.RoomId);
+                block.Set("teacher.AddTime", item.AddTime);
+                string thumbPicURL = item.ThumbUrl;
+                if (string.IsNullOrEmpty(thumbPicURL))
+                {
+                    block.Set("Content", item.MessageInfo);
+                }
+                else
+                {
+                    block.Set("Content", string.Format("<img src='{0}'  alt='pic' />", thumbPicURL));
+                }
+                block.Next();
+            }
         }
 
         public virtual void JsonResult()
