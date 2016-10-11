@@ -20,10 +20,6 @@ namespace StockRoom.BLL.Jobs
             string date = DateTime.Now.ToString("yyyyMMdd");
             int roomId = 333;
             string dir = string.Format("{0}\\data\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
-            //如果已经包含有文件,说明已经运行过一次
-            if (Directory.GetFiles(dir).Length > 0)
-                return;
-
 
             int i = (int)DateTime.Today.DayOfWeek;
             //只在工作日和15点之后去抓取数据
@@ -34,6 +30,14 @@ namespace StockRoom.BLL.Jobs
             {
                 try
                 {
+                    if (!Directory.Exists(dir))
+                    {
+                        Directory.CreateDirectory(dir);
+                    }
+                    //如果已经包含有文件,说明已经运行过一次
+                    if (Directory.GetFiles(dir).Length > 0)
+                        return;
+
                     StockOnline stk = new StockOnline();
                     string teachPageJson = stk.GetTeacherPageJson(roomId);
                     int pageNo = stk.ParseTeacherPageNo(teachPageJson);
@@ -41,10 +45,6 @@ namespace StockRoom.BLL.Jobs
                     int pageIndex = 0;
                     Encoding encoding = Encoding.GetEncoding("GB2312");
 
-                    if (!Directory.Exists(dir))
-                    {
-                        Directory.CreateDirectory(dir);
-                    }
                     for (; pageIndex < pageNo; pageIndex++)
                     {
                         string teachJson = stk.GetTeacherJson(roomId, pageIndex);

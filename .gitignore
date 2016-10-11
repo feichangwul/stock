@@ -36,6 +36,7 @@ _ReSharper*/
 #static html files
 StockRoom.Web/imgs/
 StockRoom.Web/data/
+StockRoom.Web/framework/log
 #
 
 
