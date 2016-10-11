@@ -1818,7 +1818,9 @@
     <Content Include="static\js\lib\zTree\demo\cn\asyncData\getNodesForBigData.php" />
     <Content Include="static\js\lib\zTree\demo\en\asyncData\getNodes.php" />
     <Content Include="static\js\lib\zTree\demo\en\asyncData\getNodesForBigData.php" />
-    <None Include="framework\data\wojilu.Web.Jobs.WebJob.config" />
+    <None Include="framework\data\wojilu.Web.Jobs.WebJob.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\stock.pubxml" />
     <None Include="Properties\PublishProfiles\web.pubxml" />
     <None Include="Web.Debug.config">

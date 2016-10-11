@@ -22,9 +22,10 @@ namespace StockRoom.BLL.Jobs
             string dir = string.Format("{0}\\data\\{1}\\{2}",AppDomain.CurrentDomain.BaseDirectory, roomId, date);
             
             int i = (int)DateTime.Today.DayOfWeek;
+         
             //只在工作日和15点之后去抓取数据
-            bool flag = i !=0 && i != 6;
-            flag = DateTime.Now.Hour > 15 && DateTime.Now.Hour < 23;
+            if (i == 0 || i == 6) return;
+            bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 23;
 
 
             if (flag)

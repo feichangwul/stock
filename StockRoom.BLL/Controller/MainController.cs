@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using wojilu;
+using wojilu.Web;
 using wojilu.Web.Mvc;
 
 namespace StockRoom.BLL.Controller
@@ -15,18 +16,39 @@ namespace StockRoom.BLL.Controller
         }
         public virtual void Index()
         {
-            List<Teacher> dataInDB = Teacher.findAll();
+            //List<Teacher> dataInDB = Teacher.findBySql("SELECT TOP 1 * FROM TEACHER ORDER BY id desc");
 
-            //List<Teacher> dataInDB = db.find<Teacher>("StrComp(:now,Left(addtime,10)) = 0")
-            //        .set("now", DateTime.Now.ToString("yyyy-MM-dd")).list();
+            //bindList("list", "teacher", dataInDB);
+            Int64 id = 332;
+            List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
+                .set("roomId", id)    
+                .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
+                    .list();
 
-            bindList("list", "teacher", dataInDB);
+            IBlock block = getBlock("list");
+            foreach (var item in dataInDB)
+            {
+                //block.Set("teacher.RoomId", item.RoomId);
+                block.Set("teacher.AddTime", item.AddTime);
+                string thumbPicURL = item.ThumbUrl;
+                if (string.IsNullOrEmpty(thumbPicURL))
+                {
+                    block.Set("Content", item.MessageInfo);
+                }
+                else
+                {
+                    block.Set("Content", string.Format("<img src='{0}'  alt='pic' />",thumbPicURL));
+                }
+                block.Next();
+            }
         }
 
         public virtual void Show(Int64 id)
         {
-            List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId")
-                    .set("roomId", id).list();
+            List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
+                    .set("roomId", id)
+                    .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
+                    .list();
 
             bindList("list", "teacher", dataInDB);
         }
