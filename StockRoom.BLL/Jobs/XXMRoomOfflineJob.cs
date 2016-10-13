@@ -27,6 +27,7 @@ namespace StockRoom.BLL.Jobs
             if (i == 0 || i == 6) return;
             bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 23;
 
+            logger.Debug("--------------------------XXM OFFLINE Executing START--------------------------"); 
 
             if (flag)
             {
@@ -60,6 +61,7 @@ namespace StockRoom.BLL.Jobs
                             stk.SaveFile(teachJson, absolutePath, encoding);
                         }
                     }
+                    logger.Debug("--------------------------XXM OFFLINE Executing END--------------------------"); 
                 }
                 catch (Exception ex)
                 {

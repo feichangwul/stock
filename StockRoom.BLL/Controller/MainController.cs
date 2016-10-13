@@ -19,7 +19,7 @@ namespace StockRoom.BLL.Controller
             //List<Teacher> dataInDB = Teacher.findBySql("SELECT TOP 1 * FROM TEACHER ORDER BY id desc");
 
             //bindList("list", "teacher", dataInDB);
-            Int64 id = 332;
+            Int64 id = 333;
             List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
                 .set("roomId", id)    
                 .set("now", DateTime.Now.ToString("yyyy-MM-dd"))

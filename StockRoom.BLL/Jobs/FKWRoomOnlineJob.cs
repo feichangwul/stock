@@ -24,7 +24,7 @@ namespace StockRoom.BLL.Jobs
             //9:30以后开始抓取数据
             flag = ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
             
-            if (flag)
+            if (!flag)
             {
                 int roomId = 333;
                 logger.Debug("------------Start to fetch data : RoomID 333----------");

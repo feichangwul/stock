@@ -187,6 +187,7 @@ namespace StockRoom.BLL
                     string replyMessageInfo = "";
                     string replyAddTime = "";
                     string thumbUrl = "";
+                    string hrefUrl = string.Empty;
                     //如果是包含在<div>中，可以忽略reply的message
                     if (!message.StartsWith("<div"))
                     {
@@ -196,6 +197,7 @@ namespace StockRoom.BLL
                     else
                     {
                         thumbUrl = GetImageUrl(message);
+                        hrefUrl = GetHrefUrl(message);
                         message = GetMessageContent(message);
                         //如果信息是图片
                         if (!string.IsNullOrEmpty(thumbUrl))
@@ -203,7 +205,7 @@ namespace StockRoom.BLL
                             message = "";
                         }
                     }
-                    Teacher teach = new Teacher
+                    var teach = new Teacher
                     {
                         RoomId = (int)jObject["RoomID"],
                         PageNo = -999,
@@ -214,9 +216,9 @@ namespace StockRoom.BLL
                         ReplyAddTime = replyAddTime,
                         ReplyUserName = jObject["ReplyUserName"].ToString(),
                         ContentUrl = jObject["Contenturl"].ToString(),
+                        PicUrl = hrefUrl,
                         ThumbUrl = thumbUrl
                     };
-
 
                     alTeachers.Add(teach);
                 }
@@ -232,7 +234,7 @@ namespace StockRoom.BLL
 
         public void DownloadTeacherImages(Teacher teach, string basePath)
         {
-            string str = teach.ContentUrl;
+            string str = teach.PicUrl;
             if (!string.IsNullOrEmpty(str))
             {
                 int index = str.LastIndexOf("/");
@@ -240,15 +242,19 @@ namespace StockRoom.BLL
                 string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
                 teach.LocalContentPath = imgPath;
                 DownloadImage(str, imgPath);
-                str = teach.ThumbUrl;
-                index = str.LastIndexOf("/");
-                if (!string.IsNullOrEmpty(str))
-                {
-                    imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
-                    teach.LocalThumbPath = imgPath;
-                    DownloadImageWithWebClient(str, imgPath);
-                }
+                
             }
+            //download the thumb picture
+            str = teach.ThumbUrl;
+            if (!string.IsNullOrEmpty(str))
+            {
+                int index = str.LastIndexOf("/");
+                if (!Directory.Exists(basePath)) Directory.CreateDirectory(basePath);
+                string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
+                teach.LocalThumbPath = imgPath;
+                DownloadImage(str, imgPath);
+            }
+           
         }
         /// <summary>
         /// 
@@ -274,6 +280,17 @@ namespace StockRoom.BLL
             string result = string.Empty;
 
             string pattern = "img src=\"(http://.+\\.jpg)\">";
+            Regex reg = new Regex(pattern);
+            Match match = reg.Match(value);
+            result = match.Groups[1].Value;
+            return result;
+        }
+
+        public string GetHrefUrl(string value)
+        {
+            string result = string.Empty;
+
+            string pattern = "href=\"(http://.+\\.jpg)(\"><img)";
             Regex reg = new Regex(pattern);
             Match match = reg.Match(value);
             result = match.Groups[1].Value;

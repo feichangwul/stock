@@ -21,10 +21,11 @@ namespace StockRoom.BLL.Jobs
             int roomId = 333;
             string dir = string.Format("{0}\\data\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
 
+            logger.Debug("--------------------------FKW OFFLINE Executing START--------------------------"); 
             int i = (int)DateTime.Today.DayOfWeek;
             //只在工作日和15点之后去抓取数据
             if (i == 0 || i == 6) return;
-            bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 23;
+            bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 24;
 
             if (flag)
             {
@@ -58,6 +59,8 @@ namespace StockRoom.BLL.Jobs
                             stk.SaveFile(teachJson, absolutePath, encoding);
                         }
                     }
+
+                    logger.Debug("--------------------------FKW Executing END--------------------------"); 
                 }
                 catch (Exception ex)
                 {

@@ -23,7 +23,9 @@ namespace StockRoom.BLL
         public string ReplyAddTime { get; set; }
         
         public string ReplyUserName { get; set; }
-        
+
+        public string PicUrl { get; set; }
+
         public string ContentUrl { get; set; }
         public string LocalContentPath { get; set; }
         public string ThumbUrl { get; set; }
