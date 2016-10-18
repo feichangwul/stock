@@ -139,11 +139,11 @@ namespace StockRoom.BLL
             try
             {
                 JToken json = JValue.Parse(jsonString);
-                result = (int)json["teacherPageCount"];
+                result = json["teacherPageCount"].ToObject<int>();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                logger.Error(ex.Message);
             }
 
             return result;

@@ -22,7 +22,8 @@ namespace StockRoom.BLL.Jobs
             bool flag = i != 0 && i != 6;
             if (!flag) return;
             //9:30以后开始抓取数据
-            flag = ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
+            //12点到1点休息
+            flag = DateTime.Now.Hour != 12 && ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
             
             if (!flag)
             {
