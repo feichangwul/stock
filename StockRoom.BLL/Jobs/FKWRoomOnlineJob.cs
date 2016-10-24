@@ -27,10 +27,12 @@ namespace StockRoom.BLL.Jobs
             
             if (flag)
             {
+                logger.Debug(string.Format("------------Data: {0}", DateTime.Now.Hour));
                 int roomId = 333;
-                logger.Debug("------------Start to fetch data : RoomID 333----------");
+                logger.Debug("------------START to fetch data : RoomID 333----------");
                 StockOnline stk = new StockOnline();
                 stk.FetchOnlineData(roomId);
+                logger.Debug("------------END to fetch : RoomID 333----------");
             }
         }
 
