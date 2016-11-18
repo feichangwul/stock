@@ -45,6 +45,7 @@ namespace StockRoom.BLL.Controller
             }
         }
 
+
         public virtual void Show(Int64 id)
         {
             List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")

@@ -21,6 +21,7 @@ namespace StockRoom.BLL.Jobs
             int roomId = 333;
             string dir = string.Format("{0}\\data\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
 
+            logger.Debug("--------------------------FKW OFFLINE Executing START--------------------------"); 
             int i = (int)DateTime.Today.DayOfWeek;
             //只在工作日和15点之后去抓取数据
             if (i == 0 || i == 6) return;
@@ -37,8 +38,6 @@ namespace StockRoom.BLL.Jobs
                     //如果已经包含有文件,说明已经运行过一次
                     if (Directory.GetFiles(dir).Length > 0)
                         return;
-
-                    logger.Debug("--------------------------FKW OFFLINE Executing START--------------------------"); 
 
                     StockOnline stk = new StockOnline();
                     string teachPageJson = stk.GetTeacherPageJson(roomId);
@@ -72,12 +71,11 @@ namespace StockRoom.BLL.Jobs
                             string index = arr[count - 1];
                             int no = -1;
                             int.TryParse(index, out no);
-                            if (pageNo != -1)
+                            if (no != -1)
                             {
-                                stk.InsertHistory(item, pageNo);
+                                stk.InsertHistory(item, roomId,no);
                             }
                         }
-
                     }
 
                     logger.Debug("--------------------------FKW Executing END--------------------------"); 

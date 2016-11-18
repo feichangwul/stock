@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\HistoryController.cs" />
     <Compile Include="Controller\LayoutController.cs" />
     <Compile Include="Controller\MainController.cs" />
     <Compile Include="Jobs\FKWRoomOnlineJob.cs" />

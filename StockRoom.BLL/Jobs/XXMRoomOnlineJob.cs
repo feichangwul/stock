@@ -24,27 +24,6 @@ namespace StockRoom.BLL.Jobs
             //9:30以后开始抓取数据
             //12点到1点休息
             flag = DateTime.Now.Hour != 12 && ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
-<<<<<<< HEAD
-            
-
-            if (flag)
-            {
-                int roomId = 332;
-                logger.Debug("------------Start to fetch data : RoomID 332----------");
-                StockOnline stk = new StockOnline();
-                stk.FetchOnlineData(roomId);
-                logger.Debug("------------End to fetch data----------");
-            }
-        }
-
-        public void End()
-        {
-            
-        }
-    }
-}
-=======
-            
 
             if (flag)
             {
@@ -63,4 +42,3 @@ namespace StockRoom.BLL.Jobs
         }
     }
 }
->>>>>>> 727de65b7aff64ee72d5a99abd2ca9525aa392a0

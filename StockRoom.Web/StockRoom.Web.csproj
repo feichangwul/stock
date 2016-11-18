@@ -51,6 +51,7 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="framework\log\log.txt" />
+    <Content Include="framework\views\History\Index.html" />
     <Content Include="framework\views\Layout\Layout.html" />
     <Content Include="framework\views\Main\Show.html" />
     <Content Include="framework\views\Main\Index.html" />

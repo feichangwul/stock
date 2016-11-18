@@ -90,12 +90,15 @@ namespace StockRoom.BLL
                 }
             }
         }
-        public bool InsertHistory(string filePath, int pageNo)
+        public bool InsertHistory(string filePath,int roomId, int pageNo)
         {
             Encoding encoding = Encoding.GetEncoding("GB2312");
             //Read Data from files and parse it into list
             var teacherList = ParseJsonFromFile(filePath, encoding);
-                       
+            //delete before insert
+            string condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno = {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNo);
+            db.deleteBatch<TeacherHis>(condition);
+           
             foreach (var teach in teacherList)
             {
                 //insert into db
