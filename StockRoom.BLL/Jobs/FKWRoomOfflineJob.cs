@@ -59,6 +59,25 @@ namespace StockRoom.BLL.Jobs
                             stk.SaveFile(teachJson, absolutePath, encoding);
                         }
                     }
+                    // save to DB from files
+                    foreach (var item in Directory.GetFiles(dir))
+                    {
+                        string fileName = Path.GetFileNameWithoutExtension(item);
+
+                        var arr = fileName.Split('_');
+                        int count = arr.Length;
+                        if (count > 0)
+                        {
+                            string index = arr[count - 1];
+                            int no = -1;
+                            int.TryParse(index, out no);
+                            if (pageNo != -1)
+                            {
+                                stk.InsertHistory(item, pageNo);
+                            }
+                        }
+
+                    }
 
                     logger.Debug("--------------------------FKW Executing END--------------------------"); 
                 }

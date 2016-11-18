@@ -90,7 +90,30 @@ namespace StockRoom.BLL
                 }
             }
         }
-
+        public bool InsertHistory(string filePath, int pageNo)
+        {
+            Encoding encoding = Encoding.GetEncoding("GB2312");
+            //Read Data from files and parse it into list
+            var teacherList = ParseJsonFromFile(filePath, encoding);
+                       
+            foreach (var teach in teacherList)
+            {
+                //insert into db
+                teach.PageNo = pageNo;
+                teach.CreatedDateTime = DateTime.Now;
+                try
+                {
+                    db.insert(teach);
+                }
+                catch (Exception ex)
+                {
+                    logger.Error(ex.Message);
+                    return false;
+                }
+                
+            }
+            return true;
+        }
         private String OpenRead(string baseAddress, string resourceUrl)
         {
             string result = string.Empty;
@@ -159,15 +182,26 @@ namespace StockRoom.BLL
         /// <param name="absolutePath"></param>
         /// <param name="encoding"></param>
         /// <returns></returns>
-        public List<Teacher> ParseJsonFromFile(String absolutePath, Encoding encoding)
+        public List<TeacherHis> ParseJsonFromFile(String absolutePath, Encoding encoding)
         {
-            List<Teacher> alTeachers = new List<Teacher>();
+            var alTeachers = new List<TeacherHis>();
             if (File.Exists(absolutePath))
             {
                 string json = ReadFile(absolutePath, encoding);
                 if (!string.IsNullOrEmpty(json))
                 {
-                    alTeachers = ParseTeacherJson(json);
+                    ParseTeacherJson(json).ForEach(x =>
+                        alTeachers.Add(new TeacherHis
+                        {
+                            RoomId = x.RoomId,
+                            MessageInfo = x.MessageInfo,
+                            AddTime = x.AddTime,
+                            ReplyMessageInfo = x.ReplyMessageInfo,
+                            ReplyAddTime = x.ReplyAddTime,
+                            PicUrl = x.PicUrl,
+                            ThumbUrl = x.ThumbUrl,
+                            LocalThumbPath = x.LocalThumbPath
+                        }));
                 }
             }
             return alTeachers;
