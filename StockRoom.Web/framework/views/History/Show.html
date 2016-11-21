@@ -1,0 +1,30 @@
+﻿<%@ Page Language="C#" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>stock room</title>
+    <link href="~css/wojilu._common.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
+    <link href="~css/wojilu.cms.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
+    <script>var __funcList = []; var _run = function (aFunc) { __funcList.push(aFunc); }; var require = { urlArgs: 'v=#{jsVersion}' };</script>
+
+</head>
+
+<body>
+
+
+    <div id="bodyWrap">
+
+        <table cellspacing="1" cellpadding="3" style="width: 100%;" id="dataAdminList">
+            <!-- BEGIN list -->
+            <tr class="tableItems">
+                <td style="width:140px;">#{teacher.AddTime}</td>
+                <td>#{Content}</td>
+            </tr>
+            <!-- END list -->
+        </table>
+
+    </div>
+    <script data-main="~js/main" src="~js/lib/require-jquery-wojilu.js?v=#{jsVersion}"></script>
+</body>
+</html>

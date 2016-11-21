@@ -60,7 +60,7 @@ namespace StockRoom.BLL.Jobs
                         }
                     }
                     //insert into date table
-                    int rowCount = StockDate.count(string.Format("CreatedDate={0}", date));
+                    int rowCount = StockDate.count(string.Format("CreatedDate='{0}'", date));
                     if (rowCount <= 0)
                     {
                         var entity = new StockDate

@@ -16,12 +16,6 @@ namespace StockRoom.BLL.Controller
 
         public override void Layout() {
 
-            logger.Info( "开始加载布局文件" );
-
-            
-
         }
-
-
     }
 }
