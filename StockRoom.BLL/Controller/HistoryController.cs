@@ -13,15 +13,14 @@ namespace StockRoom.BLL.Controller
 
         public virtual void Index()
         {
-            string sql = "SELECT DISTINCT ID,CreatedDateTime,  ROOMID FROM Stock_History";
-            List<TeacherHis> dataInDB = db.findBySql<TeacherHis>(sql);
+            List<StockDate> dataInDB = db.findAll<StockDate>();
             IBlock block = getBlock("list");
             foreach (var item in dataInDB)
             {
                 block.Set("teacher.RoomId", item.RoomId);
-                block.Set("teacher.CreatedDateTime", item.CreatedDateTime);
+                block.Set("teacher.CreatedDateTime", item.CreatedDate);
+                block.Next();
             }
-            block.Next();
         }
     }
 }

@@ -61,6 +61,7 @@
     <Compile Include="Controller\HistoryController.cs" />
     <Compile Include="Controller\LayoutController.cs" />
     <Compile Include="Controller\MainController.cs" />
+    <Compile Include="Domain\StockDate.cs" />
     <Compile Include="Jobs\FKWRoomOnlineJob.cs" />
     <Compile Include="Jobs\FKWRoomOfflineJob.cs" />
     <Compile Include="Jobs\XXMRoomOfflineJob.cs" />
