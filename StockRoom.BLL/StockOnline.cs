@@ -70,8 +70,10 @@ namespace StockRoom.BLL
 
                 //为保险起见，删除可能存在的多余记录
                 condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno >= {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNextIndex);
+            
                 db.deleteBatch<Teacher>(condition);
                 Random rd = new Random();
+
                 for (; pageNextIndex <= pageNo; pageNextIndex++)
                 {
                     teachJson = GetTeacherJson(roomId, pageNextIndex);

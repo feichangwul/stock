@@ -26,7 +26,7 @@ namespace StockRoom.BLL.Jobs
             //只在工作日和15点之后去抓取数据
             if (i == 0 || i == 6) return;
             bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 24;
-            flag = true;
+           
             if (flag)
             {
                 try
@@ -36,8 +36,8 @@ namespace StockRoom.BLL.Jobs
                         Directory.CreateDirectory(dir);
                     }
                     //如果已经包含有文件,说明已经运行过一次
-                    //if (Directory.GetFiles(dir).Length > 0)
-                    //    return;
+                    if (Directory.GetFiles(dir).Length > 0)
+                        return;
 
                     StockOnline stk = new StockOnline();
                     string teachPageJson = stk.GetTeacherPageJson(roomId);
