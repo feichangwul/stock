@@ -26,7 +26,7 @@ namespace StockRoom.BLL.Jobs
             //只在工作日和15点之后去抓取数据
             if (i == 0 || i == 6) return;
             bool flag = DateTime.Now.Hour >= 15 && DateTime.Now.Hour < 24;
-            
+
             if (flag)
             {
                 try
