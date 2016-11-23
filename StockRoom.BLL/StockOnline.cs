@@ -103,7 +103,7 @@ namespace StockRoom.BLL
             {
                 //insert into db
                 teach.PageNo = pageNo;
-                teach.CreatedDateTime = DateTime.Now;
+                teach.StockDate = DateTime.Now.ToString("yyyy/MM/dd");
                 try
                 {
                     db.insert(teach);

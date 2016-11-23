@@ -33,6 +33,6 @@ namespace StockRoom.BLL
         public string ThumbUrl { get; set; }
         public string LocalThumbPath { get; set; }
         [NotNull]
-        public DateTime CreatedDateTime { get; set; }       
+        public string StockDate { get; set; }       
     }
 }

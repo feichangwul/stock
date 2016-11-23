@@ -46,9 +46,9 @@ namespace StockRoom.BLL.Controller
             DateTime date;
            // DateTime.TryParse(roomDate, out date);
             date = DateTime.ParseExact(roomDate, "yyyyMMdd", System.Globalization.CultureInfo.CurrentCulture);
-            List<TeacherHis> dataInDB = db.find<TeacherHis>("roomId = :roomId and StrComp(:now,Left(CreatedDateTime,10)) = 0")
+            List<TeacherHis> dataInDB = db.find<TeacherHis>("roomId = :roomId and StrComp(:now,Left(StockDate,10)) = 0")
                     .set("roomId", id)
-                    .set("now", date.ToString("MM/dd/yyyy"))
+                    .set("now", date.ToString("yyyy/MM/dd"))
                     .list();
 
             IBlock block = getBlock("list");
