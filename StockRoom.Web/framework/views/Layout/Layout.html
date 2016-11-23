@@ -1,34 +1,43 @@
 ﻿<%@ Page Language="C#" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>stock room</title>
-<link href="~css/wojilu._common.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
-<link href="~css/wojilu.cms.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
-<script>var __funcList = []; var _run = function (aFunc) { __funcList.push(aFunc); }; var require = { urlArgs: 'v=#{jsVersion}' };</script>
+    <title>stock room</title>
+    <link href="~css/wojilu._common.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
+    <link href="~css/wojilu.cms.css?v=#{cssVersion}" rel="stylesheet" type="text/css" />
+    <script>var __funcList = []; var _run = function (aFunc) { __funcList.push(aFunc); }; var require = { urlArgs: 'v=#{jsVersion}' };</script>
     <script type="text/javascript">
+        var timer;
         function refresh() {
-            setTimeout(function () {
-                location.reload()
-            }, 10000);
+            clearTimeout(timer);
+            timer = setTimeout(function () {
+                        var now = new Date();
+                        var hour = now.getHours();
+                        if (hour >= 8 && hour <= 16) {
+                            location.reload();
+                        }
+                    }, 10000);
         }
+
         refresh();
+
+
     </script>
 </head>
 
 <body>
-    
 
-<div id="bodyWrap">
-    
-  
-        
-    #{layout_content}
-    
-     
 
-</div>
-<script data-main="~js/main" src="~js/lib/require-jquery-wojilu.js?v=#{jsVersion}"></script>
+    <div id="bodyWrap">
+
+
+
+        #{layout_content}
+
+
+
+    </div>
+    <script data-main="~js/main" src="~js/lib/require-jquery-wojilu.js?v=#{jsVersion}"></script>
 </body>
 </html>
