@@ -55,10 +55,16 @@ namespace StockRoom.BLL.Controller
             foreach (var item in dataInDB)
             {
                 block.Set("teacher.AddTime", item.AddTime);
+                string replyMsg = item.ReplyMessageInfo;
                 string thumbPicURL = item.ThumbUrl;
                 if (string.IsNullOrEmpty(thumbPicURL))
                 {
-                    block.Set("Content", item.MessageInfo);
+                    string content = item.MessageInfo;
+                    if (!string.IsNullOrEmpty(replyMsg))
+                    {
+                        content = string.Format("<font size=\"2\" color=\"red\">{0}</font>{1}{2}", replyMsg, "</br>", content);
+                    }
+                    block.Set("Content", content);
                 }
                 else
                 {

@@ -17,22 +17,27 @@ namespace StockRoom.BLL.Controller
         public virtual void Index()
         {
             Int64 id = 332;
-            List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
-                .set("roomId", id)
-                .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
-                    .list();
+            //List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
+            //    .set("roomId", id)
+            //    .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
+            //        .list();
 
-            //List<Teacher> dataInDB = Teacher.findAll();
+            var dataInDB = TeacherHis.findAll();
 
             IBlock block = getBlock("list");
             foreach (var item in dataInDB)
             {
-                //block.Set("teacher.RoomId", item.RoomId);
                 block.Set("teacher.AddTime", item.AddTime);
+                
+                string replyMsg = item.ReplyMessageInfo;
                 string thumbPicURL = item.ThumbUrl;
                 if (string.IsNullOrEmpty(thumbPicURL))
                 {
-                    block.Set("Content", item.MessageInfo);
+                    string content = item.MessageInfo;
+                    if(!string.IsNullOrEmpty(replyMsg)){
+                        content = string.Format("<font size=\"2\" color=\"red\">{0}</font>{1}{2}", replyMsg, "</br>", content);
+                    }
+                    block.Set("Content", content);
                 }
                 else
                 {
@@ -55,10 +60,16 @@ namespace StockRoom.BLL.Controller
             {
                 //block.Set("teacher.RoomId", item.RoomId);
                 block.Set("teacher.AddTime", item.AddTime);
+                string replyMsg = item.ReplyMessageInfo;
                 string thumbPicURL = item.ThumbUrl;
                 if (string.IsNullOrEmpty(thumbPicURL))
                 {
-                    block.Set("Content", item.MessageInfo);
+                    string content = item.MessageInfo;
+                    if (!string.IsNullOrEmpty(replyMsg))
+                    {
+                        content = string.Format("<font size=\"2\" color=\"red\">{0}</font>{1}{2}", replyMsg, "</br>", content);
+                    }
+                    block.Set("Content", content);
                 }
                 else
                 {
