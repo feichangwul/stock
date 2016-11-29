@@ -1822,6 +1822,7 @@
     <None Include="framework\data\wojilu.Web.Jobs.WebJob.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\dev.pubxml" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Properties\PublishProfiles\stock.pubxml" />
     <None Include="Properties\PublishProfiles\web.pubxml" />
