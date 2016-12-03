@@ -98,8 +98,8 @@ namespace StockRoom.BLL
             //Read Data from files and parse it into list
             var teacherList = ParseJsonFromFile(filePath, encoding);
             //delete before insert
-            string condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno = {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNo);
-            db.deleteBatch<TeacherHis>(condition);
+            //string condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno = {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNo);
+            //db.deleteBatch<TeacherHis>(condition);
            
             foreach (var teach in teacherList)
             {
