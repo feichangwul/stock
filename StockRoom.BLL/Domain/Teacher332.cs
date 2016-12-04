@@ -3,11 +3,16 @@ using wojilu.ORM;
 
 namespace StockRoom.BLL
 {
-    [NotSave]
-    public class Teacher : ObjectBase<Teacher>
+    [Table("ROOM_XXM")]
+    public class Teacher332 : ObjectBase<Teacher332>, ITeacher
     {
-        [NotNull]
-        public virtual int RoomId { get; set; }
+        private int roomId = 332;
+        public int RoomId
+        {
+            get { return roomId; }
+
+            set { value = roomId; }
+        }
         [NotNull]
         public int PageNo { get; set; }
         [NotNull]
@@ -16,13 +21,13 @@ namespace StockRoom.BLL
         public string MessageInfo { get; set; }
         [NotNull]
         public string AddTime { get; set; }
-        
+
         public string MessageType { get; set; }
         [LongText]
         public string ReplyMessageInfo { get; set; }
-        
+
         public string ReplyAddTime { get; set; }
-        
+
         public string ReplyUserName { get; set; }
 
         public string PicUrl { get; set; }

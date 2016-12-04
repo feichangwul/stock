@@ -14,24 +14,105 @@ namespace StockRoom.BLL
     {
         public const string BASEADDRESS = "http://zhibo.hexun.com/";
         private static readonly ILog logger = LogManager.GetLogger(typeof(StockOnline));
-        public void FetchOnlineData(int roomId)
+        //public void FetchOnlineData(int roomId)
+        //{
+        //    string date = DateTime.Now.ToString("yyyyMMdd");
+        //    string imgDir = string.Format("{0}\\imgs\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
+
+        //    //
+        //    Dictionary<int, Teacher> teacherDic = new Dictionary<int, Teacher>();
+
+        //    string teachPageJson = GetTeacherPageJson(roomId);
+        //    int pageNo = ParseTeacherPageNo(teachPageJson) - 1;
+        //    logger.Debug(string.Format("The current Page No : {0} ",pageNo));
+        //    string teachJson = "";
+        //    List<Teacher> teacherList = null;
+
+        //    int currentPageIndex = -1;
+        //    //获取数据库最大的pageNo
+        //    string condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 ", roomId, DateTime.Now.ToString("yyyy-MM-dd"));
+        //    Teacher latestTeacher = Teacher.findOne(condition);
+        //    if (latestTeacher != null)
+        //    {
+        //        currentPageIndex = latestTeacher.PageNo;
+        //    }
+        //    //如果还是同一页，就只增加新记录
+        //    if (pageNo == currentPageIndex)
+        //    {
+        //        teachJson = GetTeacherJson(roomId, pageNo);
+        //        teacherList = ParseTeacherJson(teachJson);
+        //        logger.Debug(string.Format("The total count of page is : {0} ", teacherList.Count));
+
+        //        //获取数据库中已经保存的记录
+        //        //只取当天，当前最新页面的数据
+        //        List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0 and pageno= :pageNo")
+        //            .set("roomId", roomId)
+        //            .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
+        //            .set("pageNo", currentPageIndex).list();
+        //        logger.Debug(string.Format("The total count in DB is : {0} ", dataInDB.Count));
+
+        //        foreach (var teach in teacherList)
+        //        {
+        //            if (dataInDB.Find(x => x.MessageId == teach.MessageId) == null)
+        //            {
+        //                //insert into db
+        //                teach.PageNo = pageNo;
+
+        //                DownloadTeacherImages(teach, imgDir);
+        //                db.insert(teach);
+        //            }
+        //        }
+        //    }
+        //    else//新的一页，直接添加所有记录
+        //    {
+        //        int pageNextIndex = 0;
+        //        if (currentPageIndex >= 0) pageNextIndex = currentPageIndex + 1;
+
+        //        //为保险起见，删除可能存在的多余记录
+        //        condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno >= {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNextIndex);
+            
+        //        db.deleteBatch<Teacher>(condition);
+        //        Random rd = new Random();
+
+        //        for (; pageNextIndex <= pageNo; pageNextIndex++)
+        //        {
+        //            teachJson = GetTeacherJson(roomId, pageNextIndex);
+        //            teacherList = ParseTeacherJson(teachJson);
+        //            logger.Debug(string.Format("The total count of page-{0} is : {1} ", pageNextIndex, teacherList.Count));
+
+        //            foreach (var teach in teacherList)
+        //            {
+        //                //insert into db
+        //                teach.PageNo = pageNextIndex;
+        //                DownloadTeacherImages(teach, imgDir);
+        //                db.insert(teach);
+        //            }
+        //            int sleepSecond = rd.Next(2, 8);
+        //            Thread.Sleep(sleepSecond * 1000);
+        //        }
+        //    }
+        //}
+
+        public void FetchOnlineData<T>(T t) where T : ObjectBase<T>, ITeacher, new()
         {
+            int roomId = t.RoomId;
             string date = DateTime.Now.ToString("yyyyMMdd");
             string imgDir = string.Format("{0}\\imgs\\{1}\\{2}", AppDomain.CurrentDomain.BaseDirectory, roomId, date);
 
             //
-            Dictionary<int, Teacher> teacherDic = new Dictionary<int, Teacher>();
-
+            var teacherDic = new Dictionary<int, T>();
+            
             string teachPageJson = GetTeacherPageJson(roomId);
             int pageNo = ParseTeacherPageNo(teachPageJson) - 1;
-            logger.Debug(string.Format("The current Page No : {0} ",pageNo));
+            logger.Debug(string.Format("The current Page No : {0} ", pageNo));
+            if (pageNo == -1) return;
             string teachJson = "";
-            List<Teacher> teacherList = null;
+            List<T> teacherList = null;
 
             int currentPageIndex = -1;
             //获取数据库最大的pageNo
             string condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 ", roomId, DateTime.Now.ToString("yyyy-MM-dd"));
-            Teacher latestTeacher = Teacher.findOne(condition);
+            var latestTeacher = db.find<T>(condition).first();
             if (latestTeacher != null)
             {
                 currentPageIndex = latestTeacher.PageNo;
@@ -40,16 +121,16 @@ namespace StockRoom.BLL
             if (pageNo == currentPageIndex)
             {
                 teachJson = GetTeacherJson(roomId, pageNo);
-                teacherList = ParseTeacherJson(teachJson);
-                logger.Debug(string.Format("The total count of page is : {0} ", teacherList.Count));
+                teacherList = ParseTeacherJson<T>(teachJson);
+                logger.Debug(string.Format("The total count from web is : {0} ", teacherList.Count));
 
                 //获取数据库中已经保存的记录
                 //只取当天，当前最新页面的数据
-                List<Teacher> dataInDB = db.find<Teacher>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0 and pageno= :pageNo")
+                var dataInDB = db.find<T>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0 and pageno= :pageNo")
                     .set("roomId", roomId)
                     .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
                     .set("pageNo", currentPageIndex).list();
-                logger.Debug(string.Format("The total count in DB is : {0} ", dataInDB.Count));
+                logger.Debug(string.Format("PangeIndex:{0}, The total count in DB is : {1} ", pageNo,dataInDB.Count));
 
                 foreach (var teach in teacherList)
                 {
@@ -59,6 +140,7 @@ namespace StockRoom.BLL
                         teach.PageNo = pageNo;
 
                         DownloadTeacherImages(teach, imgDir);
+                        
                         db.insert(teach);
                     }
                 }
@@ -70,14 +152,14 @@ namespace StockRoom.BLL
 
                 //为保险起见，删除可能存在的多余记录
                 condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno >= {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNextIndex);
-            
-                db.deleteBatch<Teacher>(condition);
+
+                db.deleteBatch<T>(condition);
                 Random rd = new Random();
 
                 for (; pageNextIndex <= pageNo; pageNextIndex++)
                 {
                     teachJson = GetTeacherJson(roomId, pageNextIndex);
-                    teacherList = ParseTeacherJson(teachJson);
+                    teacherList = ParseTeacherJson<T>(teachJson);
                     logger.Debug(string.Format("The total count of page-{0} is : {1} ", pageNextIndex, teacherList.Count));
 
                     foreach (var teach in teacherList)
@@ -195,7 +277,7 @@ namespace StockRoom.BLL
                 string json = ReadFile(absolutePath, encoding);
                 if (!string.IsNullOrEmpty(json))
                 {
-                    ParseTeacherJson(json).ForEach(x =>
+                    ParseTeacherJson<TeacherHis>(json).ForEach(x =>
                         alTeachers.Add(new TeacherHis
                         {
                             RoomId = x.RoomId,
@@ -212,9 +294,68 @@ namespace StockRoom.BLL
             return alTeachers;
         }
 
-        public List<Teacher> ParseTeacherJson(string json)
+        //public List<Teacher> ParseTeacherJson(string json)
+        //{
+        //    List<Teacher> alTeachers = new List<Teacher>();
+        //    try
+        //    {
+        //        JArray jsonObj = JArray.Parse(json);
+
+        //        foreach (JObject jObject in jsonObj)
+        //        {
+        //            string message = jObject["MessageInfo"].ToString();
+
+        //            string replyMessageInfo = "";
+        //            string replyAddTime = "";
+        //            string thumbUrl = "";
+        //            string hrefUrl = string.Empty;
+        //            //如果是包含在<div>中，可以忽略reply的message
+        //            if (!message.StartsWith("<div"))
+        //            {
+        //                replyMessageInfo = jObject["ReplyMessageInfo"].ToString();
+        //                replyAddTime = jObject["ReplyAddTime"].ToString();
+        //            }
+        //            else
+        //            {
+        //                thumbUrl = GetImageUrl(message);
+        //                hrefUrl = GetHrefUrl(message);
+        //                message = GetMessageContent(message);
+        //                //如果信息是图片
+        //                if (!string.IsNullOrEmpty(thumbUrl))
+        //                {
+        //                    message = "";
+        //                }
+        //            }
+        //            var teach = new Teacher
+        //            {
+        //                RoomId = (int)jObject["RoomID"],
+        //                PageNo = -999,
+        //                MessageInfo = message,
+        //                MessageId = (int)jObject["_id"],
+        //                AddTime = jObject["AddTime"].ToString(),
+        //                ReplyMessageInfo = replyMessageInfo,
+        //                ReplyAddTime = replyAddTime,
+        //                ReplyUserName = jObject["ReplyUserName"].ToString(),
+        //                ContentUrl = jObject["Contenturl"].ToString(),
+        //                PicUrl = hrefUrl,
+        //                ThumbUrl = thumbUrl
+        //            };
+
+        //            alTeachers.Add(teach);
+        //        }
+        //        return alTeachers;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        logger.Error(ex.Message);
+        //        throw;
+        //    }
+
+        //}
+
+        public List<T> ParseTeacherJson<T>(string json) where T: ObjectBase<T>, ITeacher, new()
         {
-            List<Teacher> alTeachers = new List<Teacher>();
+            var alTeachers = new List<T>();
             try
             {
                 JArray jsonObj = JArray.Parse(json);
@@ -244,7 +385,7 @@ namespace StockRoom.BLL
                             message = "";
                         }
                     }
-                    var teach = new Teacher
+                    var teach = new T
                     {
                         RoomId = (int)jObject["RoomID"],
                         PageNo = -999,
@@ -271,7 +412,32 @@ namespace StockRoom.BLL
 
         }
 
-        public void DownloadTeacherImages(Teacher teach, string basePath)
+        public void DownloadTeacherImages(string picUrl,string thumbUrl, string basePath)
+        {
+            string str = picUrl;
+            if (!string.IsNullOrEmpty(str))
+            {
+                int index = str.LastIndexOf("/");
+                if (!Directory.Exists(basePath)) Directory.CreateDirectory(basePath);
+                string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
+                //teach.LocalContentPath = imgPath;
+                DownloadImage(str, imgPath);
+
+            }
+            //download the thumb picture
+            str = thumbUrl;
+            if (!string.IsNullOrEmpty(str))
+            {
+                int index = str.LastIndexOf("/");
+                if (!Directory.Exists(basePath)) Directory.CreateDirectory(basePath);
+                string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
+                //teach.LocalThumbPath = imgPath;
+                DownloadImage(str, imgPath);
+            }
+
+        }
+
+        public void DownloadTeacherImages(ITeacher teach, string basePath)
         {
             string str = teach.PicUrl;
             if (!string.IsNullOrEmpty(str))
@@ -281,7 +447,7 @@ namespace StockRoom.BLL
                 string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
                 teach.LocalContentPath = imgPath;
                 DownloadImage(str, imgPath);
-                
+
             }
             //download the thumb picture
             str = teach.ThumbUrl;
@@ -293,8 +459,34 @@ namespace StockRoom.BLL
                 teach.LocalThumbPath = imgPath;
                 DownloadImage(str, imgPath);
             }
-           
+
         }
+
+        //public void DownloadTeacherImages(Teacher teach, string basePath)
+        //{
+        //    string str = teach.PicUrl;
+        //    if (!string.IsNullOrEmpty(str))
+        //    {
+        //        int index = str.LastIndexOf("/");
+        //        if (!Directory.Exists(basePath)) Directory.CreateDirectory(basePath);
+        //        string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
+        //        teach.LocalContentPath = imgPath;
+        //        DownloadImage(str, imgPath);
+                
+        //    }
+        //    //download the thumb picture
+        //    str = teach.ThumbUrl;
+        //    if (!string.IsNullOrEmpty(str))
+        //    {
+        //        int index = str.LastIndexOf("/");
+        //        if (!Directory.Exists(basePath)) Directory.CreateDirectory(basePath);
+        //        string imgPath = string.Format("{0}\\{1}", basePath, str.Substring(index + 1));
+        //        teach.LocalThumbPath = imgPath;
+        //        DownloadImage(str, imgPath);
+        //    }
+           
+        //}
+        
         /// <summary>
         /// 
         /// </summary>

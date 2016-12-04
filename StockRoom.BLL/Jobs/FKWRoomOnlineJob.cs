@@ -18,19 +18,21 @@ namespace StockRoom.BLL.Jobs
         public void Execute()
         {
             int i = (int)DateTime.Today.DayOfWeek;
-            //只在工作日
-            bool flag = i != 0 && i != 6;
-            if (!flag) return;
-            //9:30以后开始抓取数据
-            //12点到1点休息
-            flag = DateTime.Now.Hour != 12 && ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
-            
+            ////只在工作日
+            //bool flag = i != 0 && i != 6;
+            //if (!flag) return;
+            ////9:30以后开始抓取数据
+            ////12点到1点休息
+            //flag = DateTime.Now.Hour != 12 && ((DateTime.Now.Hour > 9) || (DateTime.Now.Hour == 9 && DateTime.Now.Minute >= 30)) && DateTime.Now.Hour < 15;
+
+            bool flag = true;
             if (flag)
             {
-                int roomId = 333;
+                //int roomId = 333;
                 logger.Debug("------------START to fetch data : RoomID 333----------");
                 StockOnline stk = new StockOnline();
-                stk.FetchOnlineData(roomId);
+                Teacher333 fkw = new BLL.Teacher333();
+                stk.FetchOnlineData<Teacher333>(fkw);
                 logger.Debug("------------END to fetch : RoomID 333----------");
             }
         }

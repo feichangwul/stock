@@ -5,7 +5,7 @@ using wojilu.ORM;
 namespace StockRoom.BLL
 {
     [Table("Stock_History")]
-    public class TeacherHis : ObjectBase<TeacherHis>
+    public class TeacherHis : ObjectBase<TeacherHis>,ITeacher
     {
         [NotNull]
         public int RoomId { get; set; }
