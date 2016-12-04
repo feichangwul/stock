@@ -26,12 +26,12 @@ namespace StockRoom.BLL.Controller
             }
             else
             {
-                redirect(Show, 332);
+                redirect(ShowFKW);
             }
         }
 
 
-        public virtual void Show(Int64 id)
+        public virtual void ShowFKW()
         {
             //只在工作日
             int i = (int)DateTime.Today.DayOfWeek;
@@ -44,7 +44,55 @@ namespace StockRoom.BLL.Controller
             else
             {
                 var dataInDB = db.find<Teacher333>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
-                  .set("roomId", id)
+                  .set("roomId", 333)
+                  .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
+                  .list();
+
+                PopulateHTML(dataInDB);
+            }
+
+        }
+
+        private void PopulateHTML<T>(List<T> dataInDB) where T:ITeacher
+        {
+            IBlock block = getBlock("list");
+            foreach (var item in dataInDB)
+            {
+                //block.Set("teacher.RoomId", item.RoomId);
+                block.Set("teacher.AddTime", item.AddTime);
+                string replyMsg = item.ReplyMessageInfo;
+                string thumbPicURL = item.ThumbUrl;
+                if (string.IsNullOrEmpty(thumbPicURL))
+                {
+                    string content = item.MessageInfo;
+                    if (!string.IsNullOrEmpty(replyMsg))
+                    {
+                        content = string.Format("<font size=\"2\" color=\"red\">{0}</font>{1}{2}", replyMsg, "</br>", content);
+                    }
+                    block.Set("Content", content);
+                }
+                else
+                {
+                    block.Set("Content", string.Format("<img src='{0}'  alt='pic' />", thumbPicURL));
+                }
+                block.Next();
+            }
+        }
+
+        public virtual void ShowXXM()
+        {
+            //只在工作日
+            int i = (int)DateTime.Today.DayOfWeek;
+            //if weekend
+            if (i == 0 || i == 6)
+            {
+                //view history page
+                redirect(new HistoryController().Index);
+            }
+            else
+            {
+                var dataInDB = db.find<Teacher332>("roomId = :roomId and StrComp(:now,Left(addtime,10)) = 0")
+                  .set("roomId", 332)
                   .set("now", DateTime.Now.ToString("yyyy-MM-dd"))
                   .list();
 
@@ -73,7 +121,6 @@ namespace StockRoom.BLL.Controller
             }
 
         }
-
         public virtual void JsonResult()
         {
 
