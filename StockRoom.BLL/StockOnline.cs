@@ -153,7 +153,8 @@ namespace StockRoom.BLL
                 //为保险起见，删除可能存在的多余记录
                 condition = string.Format(" roomId = {0} and StrComp('{1}',Left(addtime,10)) = 0 and pageno >= {2}", roomId, DateTime.Now.ToString("yyyy-MM-dd"), pageNextIndex);
 
-                db.deleteBatch<T>(condition);
+                //db.deleteBatch<T>(condition);
+
                 Random rd = new Random();
 
                 for (; pageNextIndex <= pageNo; pageNextIndex++)
@@ -204,32 +205,33 @@ namespace StockRoom.BLL
         private String OpenRead(string baseAddress, string resourceUrl)
         {
             string result = string.Empty;
-            WebClient wc = new WebClient();
-            wc.BaseAddress = baseAddress;   //设置根目录
-            wc.Encoding = Encoding.UTF8;                    //设置按照何种编码访问，如果不加此行，获取到的字符串中文将是乱码
-
-            //----------------------以下为OpenRead()以流的方式读取----------------------
-            Encoding encoding = Encoding.GetEncoding("GB2312");
-            wc.Headers.Add("Accept", "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*");
-            wc.Headers.Add("Accept-Language", "zh-cn");
-            wc.Headers.Add("UA-CPU", "x86");
-            //wc.Headers.Add("Accept-Encoding","gzip, deflate");    //因为我们的程序无法进行gzip解码所以如果这样请求获得的资源可能无法解码。当然我们可以给程序加入gzip处理的模块 那是题外话了。
-            wc.Headers.Add("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)");
-            //Headers   用于添加添加请求的头信息
-            //获取访问流
-            try
+            using (WebClient wc = new WebClient())
             {
-                using (Stream objStream = wc.OpenRead(resourceUrl))
+                wc.BaseAddress = baseAddress;   //设置根目录
+                wc.Encoding = Encoding.UTF8;                    //设置按照何种编码访问，如果不加此行，获取到的字符串中文将是乱码
+
+                //----------------------以下为OpenRead()以流的方式读取----------------------
+                Encoding encoding = Encoding.GetEncoding("GB2312");
+                wc.Headers.Add("Accept", "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*");
+                wc.Headers.Add("Accept-Language", "zh-cn");
+                wc.Headers.Add("UA-CPU", "x86");
+                //wc.Headers.Add("Accept-Encoding","gzip, deflate");    //因为我们的程序无法进行gzip解码所以如果这样请求获得的资源可能无法解码。当然我们可以给程序加入gzip处理的模块 那是题外话了。
+                wc.Headers.Add("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)");
+                //Headers   用于添加添加请求的头信息
+                //获取访问流
+                try
                 {
-                    System.IO.StreamReader _read = new System.IO.StreamReader(objStream, encoding);    //新建一个读取流，用指定的编码读取，此处是utf-8
-                    result = _read.ReadToEnd();   //输出读取到的字符串
+                    using (Stream objStream = wc.OpenRead(resourceUrl))
+                    {
+                        System.IO.StreamReader _read = new System.IO.StreamReader(objStream, encoding);    //新建一个读取流，用指定的编码读取，此处是utf-8
+                        result = _read.ReadToEnd();   //输出读取到的字符串
+                    }
+                }
+                catch (Exception ex)
+                {
+                    logger.Error(ex.Message);
                 }
             }
-            catch (Exception ex)
-            {
-                logger.Error(ex.Message);
-            }
-
             return result;
         }
 
