@@ -132,6 +132,12 @@ namespace StockRoom.BLL
                     .set("pageNo", currentPageIndex).list();
                 logger.Debug(string.Format("PangeIndex:{0}, The total count in DB is : {1} ", pageNo,dataInDB.Count));
 
+                //if all data has been stored
+                if(dataInDB.Count == teacherList.Count)
+                {
+                    return;
+                }
+
                 foreach (var teach in teacherList)
                 {
                     if (dataInDB.Find(x => x.MessageId == teach.MessageId) == null)
@@ -208,7 +214,7 @@ namespace StockRoom.BLL
             using (WebClient wc = new WebClient())
             {
                 wc.BaseAddress = baseAddress;   //设置根目录
-                wc.Encoding = Encoding.UTF8;                    //设置按照何种编码访问，如果不加此行，获取到的字符串中文将是乱码
+                wc.Encoding = Encoding.UTF8;    //设置按照何种编码访问，如果不加此行，获取到的字符串中文将是乱码
 
                 //----------------------以下为OpenRead()以流的方式读取----------------------
                 Encoding encoding = Encoding.GetEncoding("GB2312");
